@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comic San MS;
+  cursor: url(click.png),auto;
+}
+html,body {
+  height: 100%;
+  width: 100%;
+}
+#main{
+  width: 100%;
+  height: 100%;
+  background-color: #5e785e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 80%;
+  height: 80%;
+  background-color: #ffed7a;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.header{
+  padding: 0 20% 0 20%;
+  width: 100%;
+  height: 20%;
+  background-color: #0f4d16;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.elem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.box{
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 25px;
+  height: 25px;
+  background-color: #e3e3e3;
+  border: 1px solid black;
+  color: #731717;
+  font-weight: 800;
+}
+
+#footer{
+  width: 100%;
+  height: 80%;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.bubbles{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #0f4d16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bubbles:hover{
+  background-color: #08260b;
+}
+#finalscore{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
